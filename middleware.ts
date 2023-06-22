@@ -13,15 +13,15 @@ const DEFAULT_OPTIONS: CorsOptions = {
  *
  * ```ts
  * import { Application } from "https://deno.land/x/oak/mod.ts";
- * import { simplecors } from "mod.ts";
+ * import { tetracors } from "mod.ts";
  *
  * const app  new Application();
- * app.use(simplecors());
+ * app.use(tetracors());
  *
  * await app.listen(":80");
  * ```
  */
-export function simplecors(
+export function tetracors(
     opts?: CorsOptions,
 ) {
     return (async (

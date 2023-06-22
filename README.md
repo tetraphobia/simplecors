@@ -1,4 +1,4 @@
-# SimpleCORS
+# TetraCORS
 
 A simple CORS middleware for Oak.
 
@@ -6,8 +6,8 @@ A simple CORS middleware for Oak.
 
 ```ts
 import { Application } from "oak";
-import { simplecors } from "mod.ts";
+import { tetracors } from "mod.ts";
 
 const app = new Application();
-app.use(simplecors());
+app.use(tetracors());
 ```
