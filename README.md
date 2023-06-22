@@ -9,5 +9,5 @@ import { Application } from "oak";
 import { simplecors } from "mod.ts";
 
 const app = new Application();
-app.use(simplecors);
+app.use(simplecors());
 ```
