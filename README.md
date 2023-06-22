@@ -1,4 +1,4 @@
-# TetraCORS
+# tetraCORS
 
 A simple CORS middleware for Oak.
 
